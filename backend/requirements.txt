@@ -1,0 +1,9 @@
+Django==5.0.6
+djangorestframework==3.15.1
+django-cors-headers==4.3.1
+python-decouple==3.8
+psycopg2-binary==2.9.9
+google-generativeai==0.3.2
+Pillow==10.3.0
+django-environ==0.11.2
+PyMySQL
