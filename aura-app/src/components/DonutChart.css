@@ -1,0 +1,31 @@
+.donut-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.donut-svg {
+  overflow: visible;
+}
+
+.donut-segment {
+  animation: drawSegment 0.8s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+@keyframes drawSegment {
+  from { opacity: 0; stroke-dashoffset: 440; }
+  to { opacity: 1; }
+}
+
+.donut-center-value {
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 700;
+  fill: var(--text-primary);
+}
+
+.donut-center-sub {
+  font-family: var(--font-body);
+  font-size: 10px;
+  fill: var(--text-muted);
+}
